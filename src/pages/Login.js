@@ -7,7 +7,7 @@ import InputIcon from "@material-tailwind/react/InputIcon";
 import Button from "@material-tailwind/react/Button";
 import H5 from "@material-tailwind/react/Heading5";
 
-export default function Card() {
+export default function Dashboard() {
     return (
         <Card>
             <CardHeader color="lightBlue" size="lg">
