@@ -36,7 +36,7 @@ export default function Sidebar() {
                                     activeClassName="bg-gradient-to-tr from-light-blue-500 to-light-blue-700 text-white shadow-md"
                                 >
                                     <Icon name="dashboard" size="2xl" />
-                                    Dashboard
+                                    儀表板
                                 </NavLink>
                             </li>
                             <li className="rounded-lg mb-2">
@@ -59,6 +59,18 @@ export default function Sidebar() {
                                     Tables
                                 </NavLink>
                             </li>
+
+														<li className="rounded-lg mb-2 ">
+                                <NavLink
+                                    to="/astroinfo"
+                                    className="flex items-center gap-4 text-sm text-gray-700 font-light px-4 py-3 rounded-lg"
+                                    activeClassName="bg-gradient-to-tr from-light-blue-500 to-light-blue-700 text-white shadow-md"
+                                >
+                                    <Icon name="toc" size="2xl" />
+                                    占星資訊
+                                </NavLink>
+                            </li>
+
                             <li className="rounded-lg mb-2 text-gray-700">
                                 <NavLink
                                     to="/maps"
@@ -66,19 +78,17 @@ export default function Sidebar() {
                                     activeClassName="bg-gradient-to-tr from-light-blue-500 to-light-blue-700 text-white shadow-md"
                                 >
                                     <Icon name="map" size="2xl" />
-                                    Maps
+                                    Google 地圖
                                 </NavLink>
                             </li>
                             <li className="px-4 rounded-lg mb-2 text-gray-700">
-                                <a
-                                    href="https://demos.creative-tim.com/material-tailwind-kit-react/#/login"
-                                    target="_blank"
-                                    rel="noreferrer"
+                                <NavLink
+                                    to="/login"
                                     className="flex items-center gap-4 text-sm font-light py-3"
                                 >
                                     <Icon name="fingerprint" size="2xl" />
-                                    Login
-                                </a>
+                                    登入系統
+                                </NavLink>
                             </li>
                             <li className="px-4 rounded-lg mb-2 text-gray-700">
                                 <a
@@ -88,7 +98,7 @@ export default function Sidebar() {
                                     className="flex items-center gap-4 text-sm font-light py-3"
                                 >
                                     <Icon name="list_alt" size="2xl" />
-                                    Register
+                                    註冊
                                 </a>
                             </li>
                             <li className="px-4 rounded-lg mb-2 text-gray-700">
